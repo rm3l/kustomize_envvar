@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namePrefix: staging-
+
+bases:
+- ../../base
+
+configMapGenerator:
+- name: the-map
+  env: config.properties
+
+patchesStrategicMerge:
+- deployment.yaml

@@ -1,6 +1,6 @@
 # kustomize_envvar
 
-> Repository for [blog post about using system environment variables with Kustomize](https://rm3l.org/using-system-envvars-with-kustomize/).
+> Repository for [my blog post about using system environment variables with Kustomize](https://rm3l.org/using-system-envvars-with-kustomize/).
 
 ## How to run
 

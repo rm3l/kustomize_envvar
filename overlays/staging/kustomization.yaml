@@ -10,5 +10,9 @@ configMapGenerator:
 - name: the-map
   env: config.properties
 
+images:
+- name: monopole/hello
+  newTag: "2"
+
 patchesStrategicMerge:
 - deployment.yaml
